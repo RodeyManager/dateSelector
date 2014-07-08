@@ -40,3 +40,7 @@
 });
 
 </pre>
+
+<div class="preview">
+    <img src="images/preview.png" height="568" width="320" alt="">
+</div>
