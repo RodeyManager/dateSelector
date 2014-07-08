@@ -1,13 +1,14 @@
-<h1>dateSelector</h1>
-============
+/**
+ * Created with JetBrains WebStorm.
+ * User: EX-LUOYONG002 （Rodey -- www.senuu.com）
+ * Date: 14-3-20
+ * Time: 下午4:14
+ * To change this template use File | Settings | File Templates.
+ */
 
-<h3>这是一个移动设置日期选择组件，组件基于Underscore</h3>
-<h4>作者：施天助</h4>
+define(['zepto', 'underscore', 'datefield'], function($, _, DateField){
 
 
-<pre>
-	
-	define(['zepto', 'underscore', 'datefield'], function($, _, DateField){
 
     var startDate = $('#startDate');
 
@@ -37,6 +38,7 @@
         }
     }
 
-});
 
-</pre>
+
+
+});
